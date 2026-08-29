@@ -1,11 +1,32 @@
-h1 {
-    font-style: italic;
+body{
+    font-family: Arial, sans-serif;
     font-weight: bold;
+    color: white;
 }
-body {
-    background-color: blue;
+div.about{
+    background-image: url('https://media.istockphoto.com/id/1035676256/photo/background-of-galaxy-and-stars.jpg?s=612x612&w=0&k=20&c=dh7eWJ6ovqnQZ9QwQQlq2wxqmAR7mgRlQTgaIylgBwc=');
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
 }
-div.about {
-    background-color: green;
-    font-size: 30px;
+div.section{
+    color: white;
+}
+div.my.info{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+div.my.info h2{
+    color: linear-gradient(135deg, #ffffff 38%, #00d4ff 78%, #7c5cff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+div.collaborate a{
+    background-color: rgba(95, 157, 168, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
 }
